@@ -1,0 +1,108 @@
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.column{width:970px}
+.slider-text h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.slider-text a {
+  padding: 15px 40px;
+}
+
+}
+
+ 
+/* Tablet layout :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.column{width:750px;}
+.slider-text h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.slider-text p {
+  margin-bottom: 30px;
+}
+.slider-text a {
+  padding: 15px 35px;
+  display: inline-block;
+}
+.col-4 {
+  width: 50%;
+  margin-bottom: 30px;
+}
+.testimonial-active .owl-controls .owl-nav .owl-prev{
+	left:-30px;
+}
+.testimonial-active.owl-carousel .owl-controls .owl-nav .owl-next {
+  right: -30px;
+}
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.column{width:300px}
+.logo {
+  text-align: center;
+  float:none;
+}
+.menu ul li a {
+  padding: 20px 13px;
+}
+.slider-text p {
+  display:none;
+}
+.menu {
+  float: none;
+  text-align: center;
+}
+.slider-text h1 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  line-height:30px;
+}
+.slider-text a {
+  font-size: 20px;
+  padding: 8px 20px;
+  display:inline-block;
+}
+.col-4 {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.xm-mb{
+	margin-bottom:30px;
+}
+.col-3 {
+  width: 100%;
+}
+.fa-angle-left, .fa-angle-right{
+	display:none;
+	
+}
+.owl-carousel .owl-controls .owl-nav .owl-prev, .owl-carousel .owl-controls .owl-nav .owl-next {
+  background-color:transparent;
+}
+.col-2 {
+  width: 100%;
+  margin-bottom:30px;
+}
+.input-field, .message-box {
+  width: 100%;
+  padding:0px;
+}
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.column{width:450px;}
+.col-4 {
+  width: 50%;
+}
+.col-3 {
+  width: 50%;
+}
+
+}
